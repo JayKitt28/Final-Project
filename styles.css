@@ -1,73 +1,121 @@
 
-   
         *{
-            overflow-x: hidden;
+            padding: 0px;
             margin: 0px;
-            font-size: 16px;
         }
-
-        #frontPage{
-            height: auto;
-            overflow-y: hidden;
-        }
+        
 
         #header{
-            position: fixed;
-            background-color: goldenrod;
             width: 100vw;
+            left: 0px;
+            left: 0px;
             height: 10vh;
-            z-index: 1;
-            top: 0px;
-        }
-
-        #headerContent{
-            width: 100vw;
-            height: 100%;
-        }
-
-        #headerContent > h1{
-            position: relative;
-            font-family: 'Londrina Outline', cursive;
-            font-size: 4vw;
-            left: 1%;
-            padding-right: 20vw;
-        }
-
-        #headerLinks{
-            position: absolute;
-            right: 0px;
-            top: 0px;
-        }
-
-        #headerContent > a{
-            font-family: 'Londrina Outline', cursive;
-            font-size: 4vw;
-            float: left;
-            padding-left: 4vw;
-        }
-
-        #headerLinks > a{
             display: flex;
-            font-family: 'Londrina Outline', cursive;
-            font-size: 4vw;
-            float: left;
-            padding-right: 4vw;
+        }
+        
+        body{
+            background-color: #E9E9E9;
         }
 
         a{
+            color: white;
+        }
+
+        #links > a{
+            display: flex;
             text-decoration: none;
+            font-family: 'Londrina outline', cursive;
+            float: right;
+            padding:0vw 0vw 0vw 4vw;
+            font-size: 4vw;
+        }
+
+        #links{
+            position: absolute;
+            right: 4vw;
+        }
+
+        #JK > a{
+            padding-left: 5vw;
+            font-size: 4vw;
+            text-decoration: none;
+            font-family: 'Londrina outline', cursive;
+            padding-right: 20vw;
+        }
+
+        #heroThingy{
+            height: 100vh;
+            background-image: url('Images/backgroundTest.png');
+            background-repeat: no-repeat;
+            background-size: 100vw;
+        }
+
+        #introHeader{
+            position: relative;
+            text-align: center;
+            width: 95vw;
+            left: 2.5vw;
+            font-family: 'Londrina outline', cursive;
+            font-size: 4vw;
+            border-bottom: 1px gray solid;
             color: black;
         }
 
-        #heroImg{
-            position: relative;
+        .introFlex{
+            display: flex;
+            float: left;
+            width: 45vw;
+            padding: 2.5vw;
+            line-height: 5vh;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 2vw;
+            color: black;
+        }
+
+        /* non Index styles */
+
+        #pagesHeader{
             width: 100vw;
+            left: 0px;
+            left: 0px;
+            height: 10vh;
+            background-image: url('Images/backgroundTest.png');
+            display: flex;
+            background-repeat: no-repeat;
+            background-size: 100vw;
         }
 
-        #aboutMe{
-            height: 100px;
+        .leftColumn{
+            width: 40vw;
+            float: left;
+        }
+        
+        .rightColumn{
+            width: 60vw;
+            float:left;
         }
 
-        .pageHeader{
-            
+        .rightColumn > h2{
+            font-family:'Varela Round', sans-serif ;
+            padding: 4vw 0vw 1vw 1vw;
+            font-size: 3vw;
         }
+
+        .rightColumn > h3{
+            font-family: 'Varela Round', sans-serif;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            font-size: 2vw;
+        }
+
+        .leftColumn > img{
+            padding: 2vw;
+            width: 33vw;
+        }
+
+        .row{
+            display:  flex;
+        }
+
+
+        
