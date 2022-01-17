@@ -117,5 +117,19 @@
             display:  flex;
         }
 
+        #aboutMeIntro{
+            display: flex;
+            float: left;
+        }
 
-        
+        .cColumn{
+            width: 33vw;
+        }
+
+        .cColumn > img{
+            width: 100%;
+            padding: 2vw;
+            max-height: 50%;
+            object-fit: contain;
+            max-width: 89%;
+        }
